@@ -1,6 +1,6 @@
 class Parola {
     String testo;
-    int contatore;
+    int contatore = 1;
     Parola next;
 // costruttore come prima
     public Parola(String testo,int contatore) {

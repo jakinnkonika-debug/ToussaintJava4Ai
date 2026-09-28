@@ -4,6 +4,10 @@ public class Main {
         Parola a = new Parola("A");
         Parola b = new Parola("B");
         Parola c = new Parola("C");
-    }
 
+        l.aggiungi(a);
+        l.aggiungi(b);
+        l.aggiungi(c);
+        System.out.println(l);
+    }
 }
