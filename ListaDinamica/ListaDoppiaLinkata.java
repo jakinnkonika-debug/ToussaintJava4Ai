@@ -63,13 +63,13 @@ public class ListaDoppiaLinkata {
      * Stampa in ordine alfabetico le parole che compaiono almeno 'tot' volte.
      */
     public void stampaFiltrata(int tot) {
-        Parola corrente = head;
+        Parola corrente = tail;
         System.out.println("--- Parole presenti almeno " + tot + " volte (in ordine alfabetico) ---");
         while (corrente != null) {
             if (corrente.getContatore() >= tot) {
                 System.out.println(corrente);
             }
-            corrente = corrente.next;
+            corrente = corrente.prev;
         }
     }
 }

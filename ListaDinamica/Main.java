@@ -8,8 +8,8 @@ public class Main {
     public static void main(String[] args) {
 
         try {
-            File file = new File("testo.txt");
-            File output = new File("output.txt");
+            File file = new File("ListaDinamica/testo.txt");
+            File output = new File("ListaDinamica/output.txt");
 
             Scanner scanner = new Scanner(file);
             PrintWriter writer = new PrintWriter(output);
@@ -42,7 +42,7 @@ public class Main {
             }
 
             // Stampa le parole che compaiono almeno 'tot' volte (es. tot = 2)
-            int tot = 2;
+            int tot = 10;
             lista.stampaFiltrata(tot);
 
             scanner.close();
