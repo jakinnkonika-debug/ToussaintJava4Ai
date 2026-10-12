@@ -71,6 +71,7 @@ public class ListaDoppiaLinkata {
             }
             corrente = corrente.prev;
         }
+        
     }
 }
 
